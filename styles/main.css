@@ -1,0 +1,76 @@
+body{
+	margin: 0px;
+	font-family: verdana;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 4px #333;
+	background-color: #ddd;
+	text-transform: uppercase;
+	font-family: 'sans-serif';
+	color: #222;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	box-shadow: 0 3px 3px #aaa;
+	padding: 10px;
+	margin: -1px 1px 0;
+}
+
+h3{
+	margin: 5px;
+	padding: 8px;
+	color: tomato;
+	border-bottom: solid 1px #aaa;
+}
+
+p{
+	margin: 5px;
+}
+
+ul{
+	list-style-type: initial;
+	text-transform: capitalize;
+}
+
+ul li{
+	line-height: 27px;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 95.5%;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+li{
+	margin: 3px;
+}
+
+.ingredients,.steps,.description{
+	margin: 10px;
+	border: solid 1px #bbb;
+	border-radius: 7px;
+	box-shadow: 3px 3px 3px #ddd, -3px -3px 3px #eee;
+}
+
+.description{
+	border-radius: 4px;
+}
+
+.ingredients:hover,.steps:hover,.description:hover{
+	background: linear-gradient(135deg,#ccc,#eee);
+	box-shadow: 3px 3px 3px #ccc, -3px -3px 3px #eee;
+}
+
+.ingredients ul{
+	font-family: monospace;
+}
+
+section{
+	padding: 5px;
+}
