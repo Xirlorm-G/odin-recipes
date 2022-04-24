@@ -5,16 +5,13 @@ body{
 
 h1{
 	text-align: center;
-	text-shadow: 2px 2px 4px #333;
-	background-color: #ddd;
 	text-transform: uppercase;
 	font-family: 'sans-serif';
-	color: #222;
-	border: 1px solid #aaa;
-	border-radius: 2px;
-	box-shadow: 0 3px 3px #aaa;
-	padding: 10px;
-	margin: -1px 1px 0;
+	color: #56a;
+	border-radius: 12px;
+	box-shadow: -3px -3px 3px #ddd, 3px 3px 8px #ddd;
+	padding: 16px;
+	margin: 6px 6px 0;
 }
 
 h3{
@@ -25,11 +22,12 @@ h3{
 }
 
 p{
-	margin: 5px;
+	margin: 6px;
 }
 
 ul{
-	list-style-type: initial;
+	list-style-type: square;
+	font-size: 1.2em;
 	text-transform: capitalize;
 }
 
@@ -38,7 +36,10 @@ ul li{
 }
 
 a{
-	text-decoration: none;
+	text-decoration: underline;
+	font-size: 0.8em;
+	text-transform: capitalize;
+	font-style: italic;
 }
 
 img{
@@ -62,15 +63,23 @@ li{
 	border-radius: 4px;
 }
 
-.ingredients:hover,.steps:hover,.description:hover{
-	background: linear-gradient(135deg,#ccc,#eee);
-	box-shadow: 3px 3px 3px #ccc, -3px -3px 3px #eee;
-}
-
 .ingredients ul{
-	font-family: monospace;
+	font-family: sans-serif;
 }
 
 section{
 	padding: 5px;
+}
+
+p#info {
+	color: #57a;
+	padding: 13px;
+	border-bottom: 1px solid #ddd
+}
+
+div{
+	border-radius: 12px;
+	border: 1px solid #ddd;
+	padding: 13px;
+	margin: 12px;
 }
