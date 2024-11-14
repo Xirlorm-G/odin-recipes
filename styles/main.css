@@ -6,12 +6,12 @@ body {
 h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'sans-serif';
+	font-family: sans-serif;
+	font-weight: 700;
 	color: #56a;
-	border-radius: 12px;
-	box-shadow: -3px -3px 3px #ddd, 3px 3px 8px #ddd;
-	padding: 16px;
-	margin: 6px 6px 0;
+	padding: 1rem;
+	margin: 0;
+	box-shadow: 3px 3px 5px #56a;
 }
 
 h3 {
@@ -21,53 +21,51 @@ h3 {
 	border-bottom: solid 1px #aaa;
 }
 
-p { margin: 6px; }
+p {
+	 margin: 6px;
+}
 
 ul {
-	list-style-type: square;
-	font-size: 1.2em;
+	list-style-type: disc;
 	text-transform: capitalize;
 }
 
-ul li { line-height: 27px; }
+ul li {
+	line-height: 27px;
+}
 
 a {
 	text-decoration: underline;
-	font-size: 0.8em;
 	text-transform: capitalize;
-	font-style: italic;
 }
 
 img {
-	width: 95.5%;
 	margin: 2%;
-	border-radius: 10px;
+	border-radius: .6rem;
+	max-width: 380px;
 }
 
-li { margin: 3px; }
-
-.ingredients,.steps,.description {
-	margin: 10px;
-	border: solid 1px #bbb;
-	border-radius: 7px;
-	box-shadow: 3px 3px 3px #ddd, -3px -3px 3px #eee;
+li {
+	margin: 0.4rem;
 }
 
-.description { border-radius: 4px; }
+.description > section ,
+.ingredients,
+.steps {
+	margin: 1.2rem;
+}
 
-.ingredients ul { font-family: sans-serif; }
+.description {
+	text-align: center;
+}
 
-section { padding: 5px; }
+.ingredients ul {
+	font-family: sans-serif;
+}
 
 p#info {
 	color: #57a;
 	padding: 13px;
 	border-bottom: 1px solid #ddd
 }
-
-div	{
-	border-radius: 12px;
-	border: 1px solid #ddd;
-	padding: 13px;
-	margin: 12px;
-}
+ 
